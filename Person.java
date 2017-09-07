@@ -17,14 +17,14 @@ class Person{
 }
 
 class ExamplesPerson {
- ExamplesPerson() {}; // TODO fix indentation: use 2 spaces
+	ExamplesPerson() {}; // DONE fix indentation: use 2 spaces
 
- Address a = new Address("Boston", "MA");
- Address b = new Address("Warwick", "RI");
- Address c = new Address("Nashua", "NH");
+	Address a = new Address("Boston", "MA");
+	Address b = new Address("Warwick", "RI");
+	Address c = new Address("Nashua", "NH");
 
- Person tim = new Person("Tim", 20, "M", b);
- Person kim = new Person("Kim", 17, "F", a);
- Person dan = new Person("Dan", 22, "M", c);
- Person pat = new Person("Pat", 19, "F", a);
+	Person tim = new Person("Tim", 20, "M", b);
+	Person kim = new Person("Kim", 17, "F", a);
+	Person dan = new Person("Dan", 22, "M", c);
+	Person pat = new Person("Pat", 19, "F", a);
 }

@@ -28,9 +28,9 @@
 interface IMenu {}
 
 class Soup implements IMenu {
- String name; // TODO fix indentation: use 2 spaces
- int price;
- Boolean isVege;
+	String name; // DONE fix indentation: use 2 spaces
+	int price;
+	Boolean isVege;
  
  Soup(String name, int price, Boolean isVege) {
   this.name = name;
