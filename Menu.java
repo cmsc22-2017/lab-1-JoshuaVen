@@ -28,7 +28,7 @@
 interface IMenu {}
 
 class Soup implements IMenu {
- String name;
+ String name; // TODO fix indentation: use 2 spaces
  int price;
  Boolean isVege;
  
@@ -44,7 +44,7 @@ class Salad implements IMenu {
  int price;
  Boolean isVege;
  String dressing;
- 
+
  Salad(String name, int price, Boolean isVege, String dressing) {
   this.name = name;
   this.price = price;
@@ -58,7 +58,7 @@ class Sandwich implements IMenu {
  int price;
  String breadKind;
  String filling;
- 
+
  Sandwich(String name, int price, String breadKind, String filling) {
   this.name = name;
   this.price = price;
@@ -69,7 +69,7 @@ class Sandwich implements IMenu {
 
 class ExamplesMenu {
  ExamplesMenu() {}
- 
+
  IMenu peanut = new Sandwich("Peanut Sandwich", 50, "Whole Wheat", "Peanut and Jelly");
  IMenu cheese = new Sandwich("Mean Sandwich", 100, "Burger Buns", "Ham and Cheese");
  IMenu vegesalad = new Salad("Meatless Salad", 120, true, "Olive Dressing");
